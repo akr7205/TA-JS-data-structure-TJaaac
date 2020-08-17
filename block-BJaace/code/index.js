@@ -20,7 +20,7 @@
 
 // 11. Add another color to the end of the list.
 
-// 12. Add another color to the beginning of the list.
+// 12. Add another color to the beginning of the list (use array method array.unshift('gray'))
 
 // 13. Remove the first color from the starting of the array
 
@@ -28,11 +28,11 @@
 
 // 15. Remove the second color from the end of list.
 
-// 16. Create a copy of array named colors (hint: spread operator (...) is used to clone an array)
+// 16. Write a for loop to iterate through every element in the array and print each element to the console.
 
-// 17. Write a for loop to iterate through every element in the array and print each element to the console.
+// 17. Copying from that loop you just wrote, modify it to print every color's value and every color's index in this format: 3, purple or 0, blue etc.
 
-// 18. Copying from that loop you just wrote, modify it to print every color's value and every color's index in this format: 3, purple or 0, blue etc.
+// 18. Write a for..of loop to iterate through every element in the array and print each element to the console.
 
 // 19. Create a variable named lastColor that will always point to the last element of the colors array, no matter how many colors are in the list. (Hint: make use of the array's length property for this!)
 
