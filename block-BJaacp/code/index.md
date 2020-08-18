@@ -18,8 +18,8 @@ Answer the following with reason after going through the above code:
 - `user === newObj`
 - `user == newObj`
 - `user == obj`
-- `arr == arr1`
-- `arr === arr1`
+- `arr == arr2`
+- `arr === arr2`
 
 2. What's will be the value of `person1` and `person2` ? Explain with reason. Draw the memory representation diagram.
 
@@ -47,5 +47,5 @@ var user = {
 user.brothers = brothers;
 brothers.push('Robb');
 console.log(user.brothers === brothers); //1. output
-console.log(brothers.length === brothers.length); //2. output
+console.log(user.brothers.length === brothers.length); //2. output
 ```
