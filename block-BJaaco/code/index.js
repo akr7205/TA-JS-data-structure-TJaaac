@@ -81,29 +81,7 @@ function clear() {
 
 /*
 
- 6. Write a function named clear which remove all of these values (false, undefined, empty string, 0, null) and returns a new array  
-
-  @param arr (array)
-  @return array
-
-  Example: 
-    clear([1, 2, 3, 4, '', 0, null, undefined]); // [4, 3, 2, 1]
-    clear(['a', undefined, 'd', 0,  'c', 'b']); // ['b', 'c', 'd', 'a']
-    clear(['Ryan', null, 0,  'John', 'Bran']); //['Bran', 'John', 'Ryan']
-*/
-
-function clear() {
-  // your code
-}
-
-// Uncomment the code below and test the output
-// console.log(clear([1, 2, 3, 4, '', 0, null, undefined])); // [4, 3, 2, 1]
-// console.log(clear(['a', undefined, 'd', 0, 'c', 'b'])); // ['b', 'c', 'd', 'a']
-// console.log(clear(['Ryan', null, 0, 'John', 'Bran'])); //['Bran', 'John', 'Ryan']
-
-/*
-
- 7. Write a function named arrayToObj which accepts an array and return an object
+ 6. Write a function named arrayToObj which accepts an array and return an object
  where the key will be the index of array and value will be the element of the array.
 
   @param arr (array)
