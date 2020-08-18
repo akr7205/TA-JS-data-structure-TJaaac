@@ -1,41 +1,125 @@
+let numbers = [6, 8, 10, 12, 43, 56, 98];
+
+let userIds = [1230, 234, 1278, 984, 763, 900];
+
+// 1. Add all the values of numbers and userIds array into the new newly created array named `collection`
+
+// 2. Add all the even numbers from both arrays numbers and userIds into a newly created array named `evenCollection`
+
+// 3. Add all the odd numbers from both arrays numbers and userIds into a newly created array named `oddCollection`
+
 /*
-Use the different way of accessing and assigning a value to the object using `.` or `[]`
+  @param means parameter
+
+ 4. Write a function named times which accets two parameter and return an array. 
+
+  @param times (number)
+  @param character (string)
+  @return array
+
+  Example: 
+    times(5, 'c'); // ['c', 'c', 'c', 'c', 'c']
+    times(2, 'a'); // ['a', 'a']
+    times(0); // []
+    times(5); // ['test', 'test', 'test', 'test', 'test']
 */
 
-// - Define a variable named `user` and assign a blank object to it.
+function times() {
+  // Your code
+}
 
-// - Add a key of `user name` and a value of `Black Panther` to that object. (don't remove the space between user and name)
+// Uncomment the code below and test the output
 
-// - Using `console.log` log the value of `user name` key from the user object.
+// console.log(times(5, 'c')); // ['c', 'c', 'c', 'c', 'c']
+// console.log(times(2, 'a')); // ['a', 'a']
+// console.log(times(0)); // []
+// console.log(times(5)); // ['test', 'test', 'test', 'test', 'test']
 
-// - Add a key of the value of variable `batch` in the object with the value of `16`
+/*
 
-let batch = 'myBatch';
+ 5. Write a function named revert which reverts the element of the input array. 
 
-// - Using the alert function alert the value of the key added above.
+  @param arr (array)
+  @return array
 
-// - Add a key of `42` to the object with a value of `The answer to the meaning of life 🧸`.
+  Example: 
+    revert([1, 2, 3, 4]); // [4, 3, 2, 1]
+    revert(['a', 'd', 'c', 'b']); // ['b', 'c', 'd', 'a']
+    revert(['Ryan', 'John', 'Bran']); //['Bran', 'John', 'Ryan']
+*/
 
-// - Add a new key named `clothing` and value will be a blank object.
+function revert() {
+  // your code
+}
 
-// - Add a property to the value of `clothing` key named `jeans` with the value of 10.
+// Uncomment the code below and test the output
+// console.log(revert([1, 2, 3, 4])); // [4, 3, 2, 1]
+// console.log(revert(['a', 'd', 'c', 'b'])); // ['b', 'c', 'd', 'a']
+// console.log(revert(['Ryan', 'John', 'Bran'])); //['Bran', 'John', 'Ryan']
 
-// - Add another key to clothing with key `shirts` with the value 6.
+/*
 
-// - Change the `shirt` key value to 12.
+ 6. Write a function named clear which remove all of these values (false, undefined, empty string, 0, null) and returns a new array  
 
-// - Access a property named `siblings`. If the property does not exist log `There are no siblings to this user`
+  @param arr (array)
+  @return array
 
-// - Add a value of an array to the key `siblings` key. Array will be `["Robb","Ryan"]`
+  Example: 
+    clear([1, 2, 3, 4, '', 0, null, undefined]); // [4, 3, 2, 1]
+    clear(['a', undefined, 'd', 0,  'c', 'b']); // ['b', 'c', 'd', 'a']
+    clear(['Ryan', null, 0,  'John', 'Bran']); //['Bran', 'John', 'Ryan']
+*/
 
-// - Access the first index of the sibling.
+function clear() {
+  // your code
+}
 
-// - Add another value to the key `siblings` array `"Bran"`
+// Uncomment the code below and test the output
+// console.log(clear([1, 2, 3, 4, '', 0, null, undefined])); // [4, 3, 2, 1]
+// console.log(clear(['a', undefined, 'd', 0, 'c', 'b'])); // ['b', 'c', 'd', 'a']
+// console.log(clear(['Ryan', null, 0, 'John', 'Bran'])); //['Bran', 'John', 'Ryan']
 
-// - Log the last value of the sibling array
+/*
 
-// - Log the length of the `siblings` array
+ 6. Write a function named clear which remove all of these values (false, undefined, empty string, 0, null) and returns a new array  
 
-// - Log all the name of sibline using for..of loop
+  @param arr (array)
+  @return array
 
-// - Change the last value of `siblings` array to `"John"`
+  Example: 
+    clear([1, 2, 3, 4, '', 0, null, undefined]); // [4, 3, 2, 1]
+    clear(['a', undefined, 'd', 0,  'c', 'b']); // ['b', 'c', 'd', 'a']
+    clear(['Ryan', null, 0,  'John', 'Bran']); //['Bran', 'John', 'Ryan']
+*/
+
+function clear() {
+  // your code
+}
+
+// Uncomment the code below and test the output
+// console.log(clear([1, 2, 3, 4, '', 0, null, undefined])); // [4, 3, 2, 1]
+// console.log(clear(['a', undefined, 'd', 0, 'c', 'b'])); // ['b', 'c', 'd', 'a']
+// console.log(clear(['Ryan', null, 0, 'John', 'Bran'])); //['Bran', 'John', 'Ryan']
+
+/*
+
+ 7. Write a function named arrayToObj which accepts an array and return an object
+ where the key will be the index of array and value will be the element of the array.
+
+  @param arr (array)
+  @return object
+
+  Example: 
+    arrayToObj([1, 2, 3, 4]); // {0: 1, 1: 2, 2: 3, 3: 4}
+    arrayToObj(['a', undefined, 'd']); // {0: 'a', 1: undefined, 2: 'd'}
+    arrayToObj(['Ryan', 'John']); // {0: 'Ryan', 1: 'John'}
+*/
+
+function arrayToObj() {
+  // your code
+}
+
+// Uncomment the code below and test the output
+console.log(arrayToObj([1, 2, 3, 4])); // {0: 1, 1: 2, 2: 3, 3: 4}
+console.log(arrayToObj(['a', undefined, 'd'])); // {0: 'a', 1: undefined, 2: 'd'}
+console.log(arrayToObj(['Ryan', 'John'])); // {0: 'Ryan', 1: 'John'}
