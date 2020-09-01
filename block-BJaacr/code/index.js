@@ -56,4 +56,4 @@ Hint: (Structure of got variable)
 
 // 19. Log the value and length `allDescription`
 
-// 20. Only the the description whose length is more than 30. (use .lenght property on string to get the length)
+// 20. Only the the description whose length is more than 30. (use .length property on string to get the length)
