@@ -28,7 +28,7 @@ Hint: (Structure of got variable)
 
 // 5. Log the name of all the people in house Lannisters (index 1) one by one
 
-// 6. Log the name of all the people in house Lannisters (index 1) one by one
+// 6. Log the description of all the people in house Lannisters (index 1) one by one
 
 // 7. Log the name and description of all the people in house Lannisters (index 1) one by one like `I am [name] and my bio is [description]`
 
