@@ -33,12 +33,9 @@ character.greet();
 //  - Add a new property in the character object `isAdult`. The value will be true if age is greater than 18 or it will be false.
 character.isAdult=character['character-age']>18;
 // - Add a new method (function inside objects are called methods) named `changeIsAdult`. When called should be able to flip the value of `isAdult` from true to false and false to true.
+let changeIsAdult=true;
 character.changeIsAdult=function(){
-    if ( character.isAdult == true ){
-        character.isAdult = false ;
-    } else {
-        character.isAdult = false ;
-    }
+   character.changeIsAdult=!character.changeIsAdult;
 }
 // - Add a new key with the name stored in variable `keyName` defined below i.e `playedBy` (use [] for computed property) and the value of "Maisie Williams"
 
@@ -51,7 +48,7 @@ alert(character[keyName]);
 
 // - Using the function `console.log` log the value of the key `42`. You don't have to add the key
 
-
+console.log(character[42]);
 // - Add a new key named `totalSeasons` with the value of `1 + 2 + 3 + 2`. Use this expression
 character.totalSeasons = '1 + 2 + 3 + 2';
 // - Access the value of the key `totalSeason` (it should be 8)
