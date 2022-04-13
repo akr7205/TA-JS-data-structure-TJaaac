@@ -98,6 +98,12 @@ for(let i=0;i<(movies.length);i++){
     console.log(movies[i].actors[j]);
 }
   }
+// using for of loop
+for(let movie of movies){
+  for(let actor of movie.actors){
+    console.log(actor,'actors');
+  }
+}
 // 26. Log the number of genres in all three movies one by one
 for(let i=0;i<(movies.length);i++){
   for(let j=0;j<(movies[i].genres.length);j++){
