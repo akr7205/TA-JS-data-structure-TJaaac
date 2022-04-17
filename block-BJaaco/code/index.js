@@ -45,7 +45,10 @@ console.log(oddCollection);
     times(5); // ['test', 'test', 'test', 'test', 'test']
 */
 
-function times(number,string) {
+function times(number,string='test') {
+  if(number<1){
+    return [];
+  }
   let arr=[];
   for(let i=0;i<number;i++){
     arr.push(string);
@@ -135,11 +138,11 @@ console.log(clear(['Ryan', null, 0, 'John', 'Bran'])); //['Bran', 'John', 'Ryan'
 */
 
 function arrayToObj(arr) {
-  let newarr=[];
+  let result={};
   for(let i=0;i<arr.length;i++){
-    newarr.push(`${i}: ${arr[i]}`);
+       result[i]=arr[i];
   }
-  return newarr;
+  return result;
 }
 
 // Uncomment the code below and test the output
